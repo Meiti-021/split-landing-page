@@ -77,3 +77,27 @@ button:hover {
     background-position: center;
 }
 
+
+.active {
+    width: 80%;
+}
+.de-active {
+    width: 20%;
+}
+
+
+@media (max-width: 1900px) {
+    .container {
+        display: block;
+        overflow-y: auto;
+    }
+    .sides {
+        width: 100%;
+    }
+    .active {
+        width: 100%;
+    }
+    .de-active {
+        width: 100%;
+    }
+}
